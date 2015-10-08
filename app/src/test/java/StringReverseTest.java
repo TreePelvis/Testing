@@ -1,11 +1,7 @@
 import org.junit.Test;
 import org.junit.runner.RunWith;
-
-import java.util.Objects;
-
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
-
 import static org.junit.Assert.*;
 
 /**
@@ -19,7 +15,7 @@ public class StringReverseTest {
     private static final Object getWords() {
         return new Object[]{
                 new Object[]{"Hello"},
-                new Object[]{"MyBallsHurt"}
+                new Object[]{"BlahBlah"}
         };
     }
     @Test
